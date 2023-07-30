@@ -35,3 +35,9 @@ the pseudorandom SHA-256 output would follow any particular pattern in generatin
 our vanity address, so I think it's fair to say that on average it would take a 
 number of tries roughly corresponding to this series or greater for each character 
 of a given target vanity address. 
+
+If we were using ECC to generate a BTC vanity address, we'd be dealing with Base58 
+which has 58 so we'd have 58 different options for each number instead of 16, so 
+while we would gain many more words we could express(caps and lowercase) in Base58,
+it would be significantly more computationally challenging to generate actual 
+vanity BTC addresse
